@@ -2,6 +2,7 @@
 
 This folder contains third-party docker containers which are not provided as standard versions in docker hub or are customized for providing ability to work in a cluster setup.
 After this abilitiy becomes available in stock containers these containers could be removed.
+IMPORTANT: containers in this folder cannot have any Contrail-specific code, that's why they are inherited from contrail-general-base container rather than contrail-base container.
 
 There is a way to bring changes into the stock containers:
 
